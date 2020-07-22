@@ -1,0 +1,7 @@
+python.setInterpreter
+workspace.showOutput
+workspace.clearWatchman
+python.viewOutput
+python.runLinting
+python.enableLinting
+python.upgradePythonLanguageServer

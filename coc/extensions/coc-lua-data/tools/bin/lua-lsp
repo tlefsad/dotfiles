@@ -1,0 +1,3 @@
+#!/bin/sh
+
+LUAROCKS_SYSCONFDIR='/usr/local/etc/luarocks' exec '/usr/local/opt/lua/bin/lua5.3' -e 'package.path="/Users/nattapol/.config/coc/extensions/coc-lua-data/tools/share/lua/5.3/?.lua;/Users/nattapol/.config/coc/extensions/coc-lua-data/tools/share/lua/5.3/?/init.lua;"..package.path;package.cpath="/Users/nattapol/.config/coc/extensions/coc-lua-data/tools/lib/lua/5.3/?.so;"..package.cpath;local k,l,_=pcall(require,"luarocks.loader") _=k and l.add_context("lua-lsp","scm-2")' '/Users/nattapol/.config/coc/extensions/coc-lua-data/tools/lib/luarocks/rocks-5.3/lua-lsp/scm-2/bin/lua-lsp' "$@"
